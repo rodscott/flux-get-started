@@ -57,7 +57,7 @@ spec:
         - --random-error=false
         env:
         - name: PODINFO_UI_COLOR
-          value: "hsl(294, 23%, 58%)"
+          value: "34577c"
         - name: PODINFO_UI_MESSAGE
           value: "Hello from Flux!"
         livenessProbe:
