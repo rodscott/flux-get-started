@@ -5,6 +5,8 @@ metadata:
   namespace: turtle
   labels:
     name: mysql
+  annotations:
+    fluxcd.io/automated: "true"
 spec:
   selector:
     matchLabels:
